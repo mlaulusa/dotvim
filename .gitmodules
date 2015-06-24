@@ -49,3 +49,6 @@
 [submodule "bundle/emmet"]
 	path = bundle/emmet
 	url = git://github.com/mattn/emmet-vim
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
