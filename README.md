@@ -11,3 +11,7 @@ Install submodules/bundles
 
 	git submodule init
 	git submodule update
+
+Add more submodules/bundles
+
+	git submodule add <git.url>
