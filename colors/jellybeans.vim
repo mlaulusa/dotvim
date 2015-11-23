@@ -294,6 +294,8 @@ set background=dark
 
 if !exists("g:jellybeans_use_lowcolor_black") || g:jellybeans_use_lowcolor_black
     let s:termBlack = "Black"
+    let s:termGrey = "Grey"
+    let s:termWhite = "White"
 else
     let s:termBlack = "Grey"
 endif
@@ -312,10 +314,10 @@ if version >= 700
   call s:X("PmenuSel","101010","eeeeee","",s:termBlack,"White")
 endif
 
-call s:X("Visual","","404040","","",s:termBlack)
+call s:X("Visual","","404040","","",s:termGrey)
 call s:X("Cursor","","b0d0f0","","","")
 
-call s:X("LineNr","605958","151515","none",s:termBlack,"")
+call s:X("LineNr","605958","151515","none",s:termWhite,"")
 call s:X("Comment","888888","","italic","Grey","")
 call s:X("Todo","808080","","bold","White",s:termBlack)
 
