@@ -36,7 +36,7 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': []  }
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': ['javascript', 'python']  }
 nnoremap <C-w>E :SyntasticCheck<Return>
 
 let g:syntastic_always_populate_loc_list = 1
