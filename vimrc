@@ -29,6 +29,15 @@ map <Leader> <Plug>(easymotion-prefix)
 
 
 " ----------------------------------------------------------
+" Settings for emmet
+" ----------------------------------------------------------
+" makes it so emmet only works for html and css
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+" changes the leader key for emeet
+let g:user_emmet_leader_key=<C-K>,
+
+" ----------------------------------------------------------
 " Settings for syntastic 
 " ----------------------------------------------------------
 
@@ -36,13 +45,13 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': ['javascript', 'python']  }
-nnoremap <C-w>E :SyntasticCheck<Return>
+" let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': ['javascript', 'python']  }
+nnoremap <C-w>E :SyntasticToggleMode<Return>
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_wq = 1
 
 " ----------------------------------------------------------
 " netrw [file explorer]
