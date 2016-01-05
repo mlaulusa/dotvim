@@ -26,7 +26,12 @@ set number
 set tabstop=4 softtabstop=4 noexpandtab shiftwidth=4
 
 map <Leader> <Plug>(easymotion-prefix)
-
+imap fj <esc>
+vmap fj <esc> 
+map <UP> <C-W>k
+map <DOWN> <C-W>j
+map <RIGHT> <C-W>l
+map <LEFT> <C-W>h
 
 " ----------------------------------------------------------
 " Settings for emmet
@@ -35,7 +40,7 @@ map <Leader> <Plug>(easymotion-prefix)
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 " changes the leader key for emeet
-let g:user_emmet_leader_key='<C-K>'
+"let g:user_emmet_leader_key='<C-K>'
 
 " ----------------------------------------------------------
 " Settings for syntastic 

@@ -1,5 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/matthew/Documents/git/kleen-inbox/app'
 let g:netrw_dirhist_2='/Users/matthew/.grunt-init'
 let g:netrw_dirhist_3='/Users/matthew/Documents/git/chat/app/templates'
+let g:netrw_dirhist_4='/Users/matthew/Documents/git/chat/app'
+let g:netrw_dirhist_5='/Users/matthew/Documents/git/chat/app/bower_components'
+let g:netrw_dirhist_6='/Users/matthew/Documents/git/chat/app/bower_components/angular-ui-notification'
+let g:netrw_dirhist_7='/Users/matthew/Documents/git/chat/app/bower_components/angular-ui-notification/dist'
+let g:netrw_dirhist_8='/Users/matthew/Documents/git/scraper/test'
+let g:netrw_dirhist_9='/Users/matthew/Documents/git/socketio/routes'
